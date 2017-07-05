@@ -3,7 +3,7 @@
 
 	<groupId>com.silicolife</groupId>
 	<artifactId>HGTestProject</artifactId>
-	<version>0.0.6</version>
+	<version>0.0.7-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>HGTestProject</name>
@@ -15,7 +15,7 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:HugoGiesteira/HGTestProject.git</developerConnection>
-		<tag>0.0.6</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
