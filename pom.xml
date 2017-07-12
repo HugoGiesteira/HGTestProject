@@ -13,10 +13,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<scm>
+	<!-- <scm>
 		<developerConnection>scm:git:git@github.com:HugoGiesteira/HGTestProject.git</developerConnection>
 		<tag>HEAD</tag>
-	</scm>
+	</scm> 
+	-->
 
 	<dependencies>
 		<dependency>
@@ -27,7 +28,7 @@
 		</dependency>
 	</dependencies>
 	
-	<build>
+	<!-- <build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -42,8 +43,9 @@
 			</plugin>
 		</plugins>
 	</build>
+	-->
 
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<snapshotRepository>
 			<id>silicocore-snapshots</id>
 			<url>http://192.168.1.110:8081/nexus/content/repositories/silicocore-snapshots</url>
@@ -52,5 +54,6 @@
 			<id>silicocore-releases</id>
 			<url>http://192.168.1.110:8081/nexus/content/repositories/silicocore-releases</url>
 		</repository>
-	</distributionManagement>
+	</distributionManagement> 
+	-->
 </project>
